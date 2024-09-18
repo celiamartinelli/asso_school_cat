@@ -16,6 +16,13 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="fr">
+      <head>
+        {/* Balise meta pour la vérification Google Search Console */}
+        <meta
+          name="google-site-verification"
+          content="BSgs4Qhg2q8TigPNq8zJ0xt-zVcWe_cakevndrF50xU"
+        />
+      </head>
       <body className={inter.className}>{children}</body>
     </html>
   );
